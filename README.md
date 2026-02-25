@@ -76,7 +76,7 @@ Accepts `email` and/or `phoneNumber` to reconcile identity.
 
 1.  **Create a new Web Service**: Connect your GitHub repository.
 2.  **Build Command**: `npm install`
-3.  **Start Command**: `npm start`
+3.  **Start Command**: `node index.js`
 4.  **Database**: Since this uses SQLite, the database will reside in the instance's disk. 
     > [!NOTE]
     > For production use with persistent data, consider mounting a [Render Disk](https://render.com/docs/disks) at `/opt/render/project/src/data` and updating the database storage path in `models/contact.js`.
